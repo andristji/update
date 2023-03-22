@@ -14,11 +14,11 @@ echo -e "$COLOR1│${NC}  $COLOR1[INFO]${NC} Remove Old Script"
 rm /usr/bin/menu
 sleep 2
 echo -e "$COLOR1│${NC}  $COLOR1[INFO]${NC} Downloading New Script"
-wget -q -O /usr/bin/FILENAME "https://raw.githubusercontent.com/andristji/update/main/update_file/menu-vmess.sh" && chmod +x /usr/bin/menu-vmess.sh
+# wget -q -O /usr/bin/FILENAME "https://raw.githubusercontent.com/andristji/update/main/update_file/FILENAME" && chmod +x /usr/bin/FILENAME
 
 #wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/andristji/update/main/update_file/menu.sh" && chmod +x /usr/bin/menu
 #wget -q -O /usr/bin/menu-ss "https://raw.githubusercontent.com/andristji/Syna/main/update/menu-ss.sh" && chmod +x /usr/bin/menu-ss
-#wget -q -O /usr/bin/menu-vmess "https://raw.githubusercontent.com/andristji/Syna/main/update/menu-vmess.sh" && chmod +x /usr/bin/menu-vmess
+wget -q -O /usr/bin/menu-vmess "https://raw.githubusercontent.com/andristji/Syna/main/update/menu-vmess.sh" && chmod +x /usr/bin/menu-vmess
 #wget -q -O /usr/bin/menu-vless "https://raw.githubusercontent.com/andristji/Syna/main/update/menu-vless.sh" && chmod +x /usr/bin/menu-vless
 #wget -q -O /usr/bin/menu-trojan "https://raw.githubusercontent.com/andristji/Syna/main/update/menu-trojan.sh" && chmod +x /usr/bin/menu-trojan
 #wget -q -O /usr/bin/menu-bot "https://raw.githubusercontent.com/andristji/Syna/main/update/menu-bot.sh" && chmod +x /usr/bin/menu-bot
