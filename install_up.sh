@@ -14,7 +14,7 @@ echo -e "$COLOR1│${NC}  $COLOR1[INFO]${NC} Remove Old Script"
 rm /usr/bin/menu
 sleep 2
 echo -e "$COLOR1│${NC}  $COLOR1[INFO]${NC} Downloading New Script"
-# wget -q -O /usr/bin/FILENAME "https://raw.githubusercontent.com/andristji/update/main/update_file/FILENAME" && chmod +x /usr/bin/FILENAME
+# wget -q -O /usr/bin/FILENAME "https://raw.githubusercontent.com/andristji/update/main/update_file/menu-vmess.sh" && chmod +x /usr/bin/menu-vmess.sh
 
 #wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/andristji/update/main/update_file/menu.sh" && chmod +x /usr/bin/menu
 #wget -q -O /usr/bin/menu-ss "https://raw.githubusercontent.com/andristji/Syna/main/update/menu-ss.sh" && chmod +x /usr/bin/menu-ss
